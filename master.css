@@ -2,4 +2,45 @@ body {
     background-color: #3d4dff;
     color: black;
     background-image: linear-gradient(to right,rgb(190, 234, 255),rgb(247,234,211),rgb(190, 234, 255));
+    margin: 0;
 }
+
+
+.header {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #535efd; /* Dark background color */
+    position: sticky;
+    top: 0;
+  }
+
+  /* Style the navigation bar links */
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align:center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    
+    
+  }
+  
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #57e6f9;
+    color: black;
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
