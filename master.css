@@ -1,4 +1,5 @@
 body {
     background-color: #3d4dff;
     color: black;
+    background-image: linear-gradient(to right,rgb(190, 234, 255),rgb(247,234,211),rgb(190, 234, 255));
 }
