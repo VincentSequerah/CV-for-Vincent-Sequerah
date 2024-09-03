@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
-    background-color: #3d4dff;
+    background-color: rgb(255, 255, 255);
     color: black;
-    background-image: linear-gradient(to right,rgb(190, 234, 255),rgb(247,234,211),rgb(190, 234, 255));
+    /*background-image: linear-gradient(to right,rgb(190, 234, 255),rgb(247,234,211),rgb(190, 234, 255));*/
     margin: 0;
 }
 
@@ -15,32 +19,70 @@ body {
 }
 
 .navbar {
-    overflow: hidden; /* Hide overflow */
+    /*overflow: hidden; /* Hide overflow */
     background-color: #535efd; /* Dark background color */
+    /*width: 100%;*/
     position: sticky;
     top: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   /* Style the navigation bar links */
 .navbar a {
-    float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
+    /*float: left; /* Make sure that the links stay side-by-side */
     color: white; /* White text color */
     text-align:center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
+    padding: 10px 0px; /* Add some padding */
     text-decoration: none; /* Remove underline */
-    
+    /*width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    /*display: block;*/
+    flex: 25%;
     
   }
   
   
   /* Change color on hover/mouse-over */
-  .navbar a:hover {
+.navbar a:hover {
     background-color: #57e6f9;
     color: black;
   }
 
-  footer {
+footer {
     padding: 20px;
     text-align: center;
   }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+.side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #84d7f5;
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+.main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+
+
+@media screen and (max-width: 800px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
