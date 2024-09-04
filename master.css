@@ -33,7 +33,7 @@ body {
     /*float: left; /* Make sure that the links stay side-by-side */
     color: white; /* White text color */
     text-align:center; /* Center the text */
-    padding: 10px 0px; /* Add some padding */
+    padding: 10px; /* Add some padding */
     text-decoration: none; /* Remove underline */
     /*width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     /*display: block;*/
