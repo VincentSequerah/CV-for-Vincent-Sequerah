@@ -6,25 +6,29 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="main.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
         </head>
 
         <body>
             <div>
-                <ul class="navbar">
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active" onclick="toggleMenu()">Home</a>
+                    <a href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+                    <a href="#skills" onclick="toggleMenu()">Skills</a>
+                    <a href="#education" onclick="toggleMenu()">Education</a>
+                    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
 
 
 
                 <img id='portrait' src="Vincent.jpg" alt="A sign saying Vincent. A placeholder." title="A sign saying Vincent. A placeholder.">
-                
+                <div id="temporary">
                 <h1>Hi, <br> I'm Vincent Sequerah <br> Web developer</h1>
+                
                 <button>Hire me</button>
 
                 <p>I am a web developer from the United Kingdom and now I live in Ho Chi Minh City. After graduating from the univeristy of Manchester with a Degree in Engineering I worked as an Intrumentation Engineer before moving to Vietnam to teach English. Now I am looking to change careers and find a job in Web development. I am married to a Vietnamese national and have a TRC, so I am Work Permit exepmt. </p>
@@ -53,7 +57,7 @@
                   </div>
 
 
-
+                </div>
 
 
                   
