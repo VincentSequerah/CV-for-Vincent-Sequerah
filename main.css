@@ -212,7 +212,20 @@ div.scroll-container {
 
 figure {
   display: inline-block;
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 2px;
+}
 
+figure:hover {
+  box-shadow: 0 0 4px 8px rgba(7, 47, 60, 0.5);
+}
+
+.portfolio-image{
+  height: 200px;
+  width: auto;
 }
 
 
