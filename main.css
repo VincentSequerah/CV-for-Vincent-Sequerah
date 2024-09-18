@@ -196,16 +196,26 @@ h1{
 
 
 
+
+
+
+
+
 div.scroll-container {
   background-color: var(--mid);
   overflow: auto;
   white-space: nowrap;
-  padding: 10px;
+
 }
 
-div.scroll-container img {
-  padding: 10px;
+
+
+figure {
+  display: inline-block;
+
 }
+
+
 
 .email-button 
 {
@@ -231,3 +241,28 @@ transition: background-color 0.3s ease;
 {
 background-color: #0056b3;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
