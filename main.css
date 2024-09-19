@@ -198,6 +198,9 @@ h1{
 
 
 
+#portfolio::-webkit-scrollbar {    /*hide scroll bar*/
+    display: none;
+  }
 
 
 
